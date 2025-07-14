@@ -142,8 +142,8 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.markdown("## 📬 Contact Me")
 
 def send_email(name, sender_email, message):
-    receiver_email = st.secrets["email"]["username"]
-    email_password = st.secrets["email"]["password"]
+    receiver_email = "sriramakrishnan8055@gmail.com"
+    email_password = "djhh djei mdwy ztnl"
 
     email_message = EmailMessage()
     email_message["Subject"] = f"Faculty Portfolio Contact - {name}"
